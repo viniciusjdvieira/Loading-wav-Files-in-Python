@@ -19,6 +19,7 @@ In this example, you can see how to use 4 different libraries.
 
 #### Libraries notes:
 - **Soundfile**, **Librosa** and **Parselmouth** libraries have the input signal in the range [-1, 1]. On the other hand, **Scipy** library has the input signal in the range according to the digitalization level (e.g., 16 bits). Thus, for **Scipy**, we can define a normalization method (see the aforementioned jupyter notebook).
+- For the **Librosa library**, if you do not specify the sampling rate, it will consider sr = 22050 Hz.
 
 ## Tip #2
 
